@@ -1,0 +1,98 @@
+body {
+  font-family: sans-serif;
+  background-color: aqua;
+}
+h4,
+ol,
+li {
+  color: red;
+}
+h4,
+ol,
+li:hover {
+  color: black;
+}
+h5 {
+  color: red;
+  text-align: left;
+}
+h5:hover {
+  color: black;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+select {
+  transition: 0.1s;
+}
+select:hover {
+  background-color: #abd9ff;
+}
+option {
+  transition: 0.1s;
+}
+option:hover {
+  background-color: #abd9ff;
+}
+input {
+  transition: 0.1s;
+}
+
+input:hover {
+  background-color: #abd9ff;
+}
+textarea {
+  transition: 0.1s;
+}
+fieldset input[type='text'] {
+  width: 100%;
+}
+textarea:hover {
+  background-color: #fff6bf;
+}
+button {
+  margin-top: 20px;
+  width: 200px;
+  height: 40px;
+  background-color: #fff6bf;
+  border-radius: 15px;
+  color: blue;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: #abd9ff;
+  color: black;
+  box-shadow: 1px 1px 5px #ec0973;
+}
+.bawah {
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 680px) {
+  body {
+    font-size: 11px;
+  }
+  h1 {
+    font-size: 15px;
+  }
+  form {
+    width: auto;
+  }
+  button {
+    width: 100%;
+    transform: scale(1);
+  }
+
+  .table-studi {
+    margin-left: -120px;
+  }
+  .bawah {
+    margin-left: 0;
+  }
+}
