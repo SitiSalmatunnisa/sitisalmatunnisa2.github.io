@@ -1,0 +1,35 @@
+h1 {
+  text-align: center;
+  margin-top: -10px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  cursor: pointer;
+}
+
+td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  background-color: rgb(155, 76, 230);
+  color: aliceblue;
+}
+td:hover {
+  background-color: blue;
+}
+
+th {
+  background-color: aqua;
+}
+.delate {
+  background-color: red;
+  color: rgb(246, 242, 242);
+  transition: 0.2s;
+}
+.delate:hover {
+  background-color: blue;
+  transform: scale(1);
+}
